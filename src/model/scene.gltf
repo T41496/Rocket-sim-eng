@@ -1,0 +1,226 @@
+{
+    "accessors": [{
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 644,
+            "max": [
+                3.2714200019836426,
+                3.2769999504089355,
+                32.410099029541016
+            ],
+            "min": [-3.254930019378662, -3.248159885406494, -22.419679641723633],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 7728,
+            "componentType": 5126,
+            "count": 644,
+            "max": [
+                0.9978241324424744,
+                0.9988833665847778,
+                0.9999789595603943
+            ],
+            "min": [-0.9990706443786621, -0.9990328550338745, -0.9998720288276672],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5126,
+            "count": 644,
+            "max": [
+                0.9998599290847778,
+                0.9998423457145691,
+                0.9999473690986633,
+                1.0
+            ],
+            "min": [-0.9998909831047058, -0.9995355606079102, -0.9994035959243774,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 644,
+            "max": [
+                0.9900000095367432,
+                0.9900000095367432
+            ],
+            "min": [
+                0.009999999776482582,
+                0.04188000038266182
+            ],
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 0,
+            "componentType": 5125,
+            "count": 2640,
+            "type": "SCALAR"
+        }
+    ],
+    "asset": {
+        "extras": {
+            "author": "3DHaupt (https://sketchfab.com/dennish2010)",
+            "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+            "source": "https://sketchfab.com/3d-models/sci-fi-rocket-cc03a630a1c24e62b64186588560cc55",
+            "title": "Sci-Fi Rocket"
+        },
+        "generator": "Sketchfab-12.65.0",
+        "version": "2.0"
+    },
+    "bufferViews": [{
+            "buffer": 0,
+            "byteLength": 10560,
+            "name": "floatBufferViews",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 5152,
+            "byteOffset": 10560,
+            "byteStride": 8,
+            "name": "floatBufferViews",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 15456,
+            "byteOffset": 15712,
+            "byteStride": 12,
+            "name": "floatBufferViews",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 10304,
+            "byteOffset": 31168,
+            "byteStride": 16,
+            "name": "floatBufferViews",
+            "target": 34962
+        }
+    ],
+    "buffers": [{
+        "byteLength": 41472,
+        "uri": "scene.bin"
+    }],
+    "extensionsUsed": [
+        "KHR_materials_clearcoat"
+    ],
+    "images": [{
+            "uri": "textures/UVMap_baseColor.png"
+        },
+        {
+            "uri": "textures/UVMap_metallicRoughness.png"
+        },
+        {
+            "uri": "textures/UVMap_normal.png"
+        }
+    ],
+    "materials": [{
+        "doubleSided": true,
+        "extensions": {
+            "KHR_materials_clearcoat": {
+                "clearcoatFactor": 0.3079709829,
+                "clearcoatNormalTexture": {
+                    "index": 2
+                },
+                "clearcoatRoughnessFactor": 0.2396480015
+            }
+        },
+        "name": "UVMap",
+        "normalTexture": {
+            "index": 2
+        },
+        "pbrMetallicRoughness": {
+            "baseColorTexture": {
+                "index": 0
+            },
+            "metallicRoughnessTexture": {
+                "index": 1
+            },
+            "roughnessFactor": 0.9166666351
+        }
+    }],
+    "meshes": [{
+        "name": "Anti_Air_System_Rocket.001_0",
+        "primitives": [{
+            "attributes": {
+                "NORMAL": 1,
+                "POSITION": 0,
+                "TANGENT": 2,
+                "TEXCOORD_0": 3
+            },
+            "indices": 4,
+            "material": 0,
+            "mode": 4
+        }]
+    }],
+    "nodes": [{
+            "children": [
+                1
+            ],
+            "matrix": [
+                0.2086920440196991,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                4.633894246535133e-17, -0.2086920440196991,
+                0.0,
+                0.0,
+                0.2086920440196991,
+                4.633894246535133e-17,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "name": "Sketchfab_model"
+        },
+        {
+            "children": [
+                2
+            ],
+            "name": "Root"
+        },
+        {
+            "children": [
+                3
+            ],
+            "name": "Anti_Air_System_Rocket.001"
+        },
+        {
+            "mesh": 0,
+            "name": "Anti_Air_System_Rocket.001_0"
+        }
+    ],
+    "samplers": [{
+        "magFilter": 9729,
+        "minFilter": 9987,
+        "wrapS": 10497,
+        "wrapT": 10497
+    }],
+    "scene": 0,
+    "scenes": [{
+        "name": "Sketchfab_Scene",
+        "nodes": [
+            0
+        ]
+    }],
+    "textures": [{
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        },
+        {
+            "sampler": 0,
+            "source": 2
+        }
+    ]
+}

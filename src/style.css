@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+.webgl {
+    position: absolute;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    outline: none;
+    display: block;
+    flex: 3;
+}
+
+#container {
+    position: relative;
+    /* makes this the origin of its children */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+#chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex: 1;
+    background-color: red;
+}
